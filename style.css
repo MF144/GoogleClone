@@ -1,0 +1,122 @@
+body {
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.googleoffered {
+  position: absolute;
+  top: 55%;
+  left: 42%;
+  font-size: 12.5px;
+}
+
+.buttonposition {
+  position: absolute;
+  top: 44%;
+  left: 40%;
+}
+
+#googleimg {
+  position: absolute;
+  display: block;
+  top: 6px;
+  left: 448px;
+  padding: 55px 55px;
+  width: 272px;
+  height: 92px;
+}
+
+.button {
+background-color: #f8f9fa;
+color:#354054;
+text-align: center;
+padding: 11px 14px;
+font-size: 14px;
+border:none;
+border-radius: 5px;
+}
+
+.menubutton {
+  background-color:white;
+  border: none;
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+  display:inline-block;
+  text-align: center;
+  margin: 4px 2px;
+  font-size: 15px;
+}
+
+.menubutton:hover {
+  background-color: #c9cacc;
+}
+
+.button:hover {
+  border: 1px solid #f2f2f2;
+}
+
+input {   
+position: absolute;
+top: 177px;
+left: 350px;
+height: 25px;
+width: 540px;
+border: 2.5px solid #f6f7f8;
+border-radius: 50px;
+padding: 8px 10px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 15px 15px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.navbar a:hover {
+  text-decoration:underline;
+}
+
+.topmenu {
+  color: #354054;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+
+.signin {
+  background-color: #1a73e8;
+  color: white;
+  text-align: center;
+  padding: 11px 14px;
+  font-size: 14px;
+  border:none;
+  border-radius: 5px;
+}
+.singin:hover {
+  border: 1px solid #f2f2f2;
+}
